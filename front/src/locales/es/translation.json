@@ -1,0 +1,171 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "menu": "Menú",
+    "logout": "Cerrar Sesión",
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "settings": "Ajustes"
+  },
+  "header": {
+    "home": "Inicio",
+    "adventure": "Aventura",
+    "character": "Personaje"
+  },
+  "landing": {
+    "title": "Aventura Caos Cósmico",
+    "subtitle": "Explora el cosmos y descubre los secretos del universo",
+    "getStarted": "Comenzar",
+    "exploreGalaxy": "Explorar Galaxia",
+    "strikeMessage": "Los Desarrolladores Cósmicos han declarado una huelga. Sus tentáculos se niegan a tocar el teclado hasta que tengamos <span class='text-cosmic-cyan'>{{goal}} personajes</span> en nuestra base de datos."
+  },
+  "footer": {
+    "inspirationText": "Inspirado en la obra de Douglas Adams"
+  },
+  "charactersProgressCard": {
+    "title": "Huelga Cósmica en Progreso",
+    "description": "Los Desarrolladores Cósmicos han declarado una huelga. Sus tentáculos se niegan a tocar el teclado hasta que haya <span class='text-cosmic-cyan'>{{goal}} personajes</span> en nuestra base de datos galáctica.",
+    "strikeQuote": "\"Necesitamos la energía creativa de {{goal}} viajeros para activar nuestros cerebros cuánticos\", declaró su representante, un pulpo de 42 tentáculos que programa en 17 lenguajes simultáneamente.",
+    "nextUpdate": "Próxima actualización: <span class=\"font-bold\">\"Comienza la Aventura\"</span> - ¡Desbloqueable cuando alcancemos los {{goal}} personajes!",
+    "characters": "personajes",
+    "goal": "Meta"
+  },
+  "adventureSteps": {
+    "title": "Tu Viaje Interestelar",
+    "step1": {
+      "title": "Paso 1",
+      "description": "Crea tu alter ego galáctico con un test de personalidad absurdo"
+    },
+    "step2": {
+      "title": "Paso 2",
+      "description": "Vive una aventura narrativa generada por inteligencia artificial"
+    },
+    "step3": {
+      "title": "Paso 3",
+      "description": "Mintea tu personaje como NFT y llévalo al multiverso"
+    }
+  },
+  "latestCharacters": {
+    "title": "Últimos Personajes Creados",
+    "loading": "Cargando personajes recientes...",
+    "noCharacters": "No hay personajes recientes para mostrar",
+    "viewDetails": "Ver Detalles",
+    "level": "Nivel",
+    "previousCharacter": "Personaje anterior",
+    "nextCharacter": "Siguiente personaje",
+    "characterDescription": "Un aventurero cósmico con habilidades únicas para navegar a través del absurdo del universo.",
+    "nftAddress": "Dirección NFT"
+  },
+  "personalityTest": {
+    "title": "Test de Personalidad Cósmica",
+    "loading": "Cargando test de personalidad...",
+    "question": "Pregunta {{current}} de {{total}}",
+    "buttonBack": "Volver",
+    "pointsGained": "¡Has ganado +{{points}} puntos de {{effect}}!",
+    "traits": {
+      "quantum_charisma": "Carisma Cuántico",
+      "absurdity_resistance": "Resistencia al Absurdo",
+      "sarcasm_level": "Nivel de Sarcasmo",
+      "time_warping": "Distorsión Temporal",
+      "cosmic_luck": "Suerte Cósmica"
+    }
+  },
+  "featureCards": {
+    "cosmicAdventure": {
+      "title": "Aventura Cósmica",
+      "description": "Viaja por historias aleatorias y absurdas llenas de humor, aliens ridículos y situaciones imposibles"
+    },
+    "uniqueCharacters": {
+      "title": "Personajes Únicos",
+      "description": "Recibe un alter ego con estadísticas absurdas e imagen generada por IA que se adapta a tu personalidad"
+    },
+    "multiverse": {
+      "title": "Llévalo al Multiverso",
+      "description": "Conserva tu personaje y todas sus aventuras como un NFT para la posteridad cósmica"
+    }
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta?"
+  },
+  "characterCreation": {
+    "title": "Tu Personaje Cósmico",
+    "subtitle": "Basado en tus respuestas hemos creado un perfil único para tu aventura",
+    "description": "Personaliza tu aventurero cósmico",
+    "name": "Nombre del Personaje",
+    "create": "Crear Personaje",
+    "species": "Especie",
+    "attributes": "Atributos",
+    "appearance": "Apariencia",
+    "successToast": "¡Personaje cósmico generado con éxito!",
+    "errorSaving": "Error al guardar tu personaje. Inténtalo de nuevo.",
+    "generating": "Generando tu identidad cósmica...",
+    "error": "Oops, algo salió mal en el generador de personajes.",
+    "tryAgain": "Por favor intenta nuevamente.",
+    "startAdventure": "Iniciar Aventura"
+  },
+  "characterDetail": {
+    "stats": "Estadísticas",
+    "inventory": "Inventario",
+    "skills": "Habilidades",
+    "quests": "Misiones",
+    "level": "Nivel",
+    "experience": "Experiencia",
+    "artifacts": "Artefactos Absurdos",
+    "active": "Activo",
+    "clickToActivate": "Haz clic para activar",
+    "empty": "Vacío"
+  },
+  "adventure": {
+    "start": "Iniciar Aventura",
+    "continue": "Continuar Aventura",
+    "exploreZone": "Explorar Zona",
+    "battle": "Batalla",
+    "retreat": "Retirarse",
+    "reward": "Recompensa",
+    "title": "La Aventura Cósmica",
+    "completed": "¡Aventura Completada!",
+    "completedMessage": "Has sobrevivido a tu visita al Restaurante del Fin del Universo y has creado una historia única para {{name}}, el {{class}}.",
+    "mintQuestion": "¿Quieres inmortalizar tu personaje como un NFT cósmico?",
+    "takeToMultiverse": "¡Llévalo al Multiverso!",
+    "backToHome": "Volver al Inicio",
+    "newArtifact": "¡Nuevo artefacto adquirido!",
+    "artifactObtained": "¡Has obtenido el artefacto \"{{name}}\"! Se ha añadido a tu inventario.",
+    "artifactActivated": "¡Artefacto activado!",
+    "artifactDeactivated": "Artefacto desactivado",
+    "artifactEffect": "{{name}} - {{stat}} +{{bonus}} puntos por {{duration}} aventuras",
+    "mintNFTTitle": "¡Prepárate para mintear tu NFT cósmico!",
+    "mintNFTDescription": "Conecta tu wallet para continuar.",
+    "connectWallet": "Conectar",
+    "mintInDevelopment": "¡Funcionalidad de minteo en desarrollo!",
+    "nextUpdateFeature": "Esta función estará disponible en la próxima actualización.",
+    "welcomeTitle": "¡Primera Aventura!",
+    "welcomeMessage": "¡Bienvenido, {{name}}! Tu viaje cósmico comienza ahora. Toma decisiones y colecciona artefactos absurdos en el camino.",
+    "firstAdventureWelcome": "¡Personaje registrado con éxito!",
+    "firstAdventureDescription": "{{name}} está listo para comenzar su primera aventura cósmica.",
+    "showCharacter": "Mostrar Personaje",
+    "hideCharacter": "Ocultar Personaje"
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "description": "La página que estás buscando no existe o ha sido movida.",
+    "backHome": "Volver al Inicio"
+  },
+  "languageSwitcher": {
+    "language": "Idioma",
+    "english": "Inglés",
+    "spanish": "Español"
+  }
+} 

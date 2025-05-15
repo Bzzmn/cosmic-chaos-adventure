@@ -1,0 +1,43 @@
+{
+  "question": "Si te encuentras con una versión más joven de ti mismo debido a una paradoja temporal, ¿qué harías? ¿A) Le adviertes sobre los errores que vas a cometer en el futuro para cambiar tu línea de tiempo, B) Le dejas vivir su vida como está destinado a ser para no alterar el curso del tiempo, C) Le das unos pocos consejos no específicos para ayudarlo en su camino, o D) Le ignoras por completo para evitar cualquier posible ruptura en la continuidad del tiempo?",
+  "scenario_description": "Te encuentras en un crucero intergaláctico de lujo, disfrutando de unas merecidas vacaciones. De repente, una anomalía temporal sacude la nave y te transporta a un punto en el pasado. Encuentras a tu yo más joven en la misma nave, totalmente ajeno a la situación. Te das cuenta de que tienes la oportunidad de alterar tu pasado y, por lo tanto, tu presente y futuro. Sin embargo, también entiendes los riesgos y las posibles consecuencias de alterar la línea del tiempo.",
+  "context_image": "/static/images/fallback/cosmic_default.jpg",
+  "options": [
+    {
+      "text": "Opción simulada 1",
+      "emoji": "🚀",
+      "value": 4,
+      "effect": {
+        "quantum_charisma": 10
+      },
+      "feedback": "Feedback para opción 1"
+    },
+    {
+      "text": "Opción simulada 2",
+      "emoji": "🔭",
+      "value": 3,
+      "effect": {
+        "absurdity_resistance": 8
+      },
+      "feedback": "Feedback para opción 2"
+    },
+    {
+      "text": "Opción simulada 3",
+      "emoji": "🌌",
+      "value": 2,
+      "effect": {
+        "time_warping": 12
+      },
+      "feedback": "Feedback para opción 3"
+    },
+    {
+      "text": "Opción simulada 4",
+      "emoji": "🛰️",
+      "value": 1,
+      "effect": {
+        "cosmic_luck": 5
+      },
+      "feedback": "Feedback para opción 4"
+    }
+  ]
+}

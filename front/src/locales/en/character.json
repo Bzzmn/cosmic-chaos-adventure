@@ -1,0 +1,42 @@
+{
+  "creation": {
+    "title": "Create Your Character",
+    "description": "Customize your cosmic adventurer",
+    "name": "Character Name",
+    "species": "Species",
+    "appearance": "Appearance",
+    "create": "Create Character"
+  },
+  "detail": {
+    "stats": "Statistics",
+    "inventory": "Inventory",
+    "skills": "Skills",
+    "quests": "Quests",
+    "level": "Level",
+    "editProfile": "Edit Profile",
+    "description": "A cosmic adventurer with unique abilities to navigate through the absurdity of the universe."
+  },
+  "stats": {
+    "quantum_charisma": "Quantum Charisma",
+    "absurdity_resistance": "Absurdity Resistance",
+    "sarcasm_level": "Sarcasm Level",
+    "time_warping": "Time Warping",
+    "cosmic_luck": "Cosmic Luck"
+  },
+  "artifacts": {
+    "equip": "Equip",
+    "unequip": "Unequip",
+    "info": "Increases {{stat}} by {{value}} for {{duration}} encounters"
+  },
+  "latestCharacters": {
+    "title": "Latest Created Characters",
+    "loading": "Loading recent characters...",
+    "noCharacters": "No recent characters to display",
+    "viewDetails": "View Details",
+    "level": "Level",
+    "previousCharacter": "Previous character",
+    "nextCharacter": "Next character",
+    "characterDescription": "A cosmic adventurer with unique abilities to navigate through the absurdity of the universe.",
+    "nftAddress": "NFT Address"
+  }
+} 

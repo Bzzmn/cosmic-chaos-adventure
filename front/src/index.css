@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 302 88% 61%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 187 95% 43%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 85 77% 44%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 302 88% 61%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 302 88% 61%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 187 95% 43%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217.2 32.6% 17.5%;
+    --sidebar-ring: 302 88% 61%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-cosmic-dark text-foreground font-plex;
+    background-image: 
+      radial-gradient(circle at 30% 20%, rgba(76, 29, 149, 0.3) 0%, transparent 35%),
+      radial-gradient(circle at 70% 60%, rgba(76, 29, 149, 0.3) 0%, transparent 35%),
+      linear-gradient(to bottom, #0F172A, #1E293B);
+    min-height: 100vh;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-space;
+  }
+}
+
+@layer components {
+  .neon-border {
+    @apply relative rounded-lg overflow-hidden;
+  }
+  
+  .neon-border::before {
+    content: '';
+    @apply absolute inset-0 p-[2px] rounded-lg bg-neon-glow animate-cosmic-spin;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: xor;
+  }
+  
+  .cosmic-card {
+    @apply bg-black/40 backdrop-blur-md rounded-xl border border-white/10;
+  }
+  
+  .cosmic-button {
+    @apply relative px-6 py-3 rounded-lg font-space font-bold text-white overflow-hidden 
+           transition-all duration-300 hover:scale-105 active:scale-95 shadow-lg;
+  }
+  
+  .cosmic-button-primary {
+    @apply cosmic-button bg-cosmic-magenta hover:bg-opacity-90;
+  }
+  
+  .cosmic-button-secondary {
+    @apply cosmic-button bg-cosmic-cyan hover:bg-opacity-90;
+  }
+  
+  .cosmic-button-accent {
+    @apply cosmic-button bg-cosmic-green hover:bg-opacity-90;
+  }
+  
+  .star {
+    @apply w-[2px] h-[2px] rounded-full bg-white opacity-80 fixed pointer-events-none;
+  }
+  
+  .star-small {
+    @apply w-[1px] h-[1px] opacity-60;
+  }
+  
+  .star-medium {
+    @apply w-[2px] h-[2px] opacity-80;
+  }
+  
+  .star-large {
+    @apply w-[3px] h-[3px] opacity-100;
+  }
+  
+  .glow {
+    @apply absolute blur-[50px] opacity-50 rounded-full;
+  }
+}

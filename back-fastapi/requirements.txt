@@ -1,0 +1,26 @@
+fastapi==0.100.0
+uvicorn==0.22.0
+pydantic==2.0.2
+pydantic-settings==2.0.2
+pydantic-extra-types==2.0.0
+email-validator==2.0.0
+sqlalchemy==2.0.25
+# PostgreSQL driver - opcional, comentado por defecto
+# psycopg2-binary==2.9.7
+alembic==1.11.1
+python-dotenv==1.0.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+pytest==7.4.0
+httpx==0.24.1
+black==23.7.0
+flake8==6.1.0
+isort==5.12.0
+pillow==10.0.0
+langchain==0.0.335
+langgraph==0.4.3
+langsmith==0.3.42
+langchain-openai>=0.0.5
+langchain-google-genai>=0.0.5
+google-generativeai>=0.3.1

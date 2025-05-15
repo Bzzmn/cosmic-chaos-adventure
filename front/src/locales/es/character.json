@@ -1,0 +1,42 @@
+{
+  "creation": {
+    "title": "Crea Tu Personaje",
+    "description": "Personaliza tu aventurero cósmico",
+    "name": "Nombre del Personaje",
+    "species": "Especie",
+    "appearance": "Apariencia",
+    "create": "Crear Personaje"
+  },
+  "detail": {
+    "stats": "Estadísticas",
+    "inventory": "Inventario",
+    "skills": "Habilidades",
+    "quests": "Misiones",
+    "level": "Nivel",
+    "editProfile": "Editar Perfil",
+    "description": "Un aventurero cósmico con habilidades únicas para navegar a través del absurdo del universo."
+  },
+  "stats": {
+    "quantum_charisma": "Carisma Cuántico",
+    "absurdity_resistance": "Resistencia al Absurdo",
+    "sarcasm_level": "Nivel de Sarcasmo",
+    "time_warping": "Distorsión Temporal",
+    "cosmic_luck": "Suerte Cósmica"
+  },
+  "artifacts": {
+    "equip": "Equipar",
+    "unequip": "Desequipar",
+    "info": "Aumenta {{stat}} en {{value}} durante {{duration}} encuentros"
+  },
+  "latestCharacters": {
+    "title": "Últimos Personajes Creados",
+    "loading": "Cargando personajes recientes...",
+    "noCharacters": "No hay personajes recientes para mostrar",
+    "viewDetails": "Ver Detalles",
+    "level": "Nivel",
+    "previousCharacter": "Personaje anterior",
+    "nextCharacter": "Siguiente personaje",
+    "characterDescription": "Un aventurero cósmico con habilidades únicas para navegar a través del absurdo del universo.",
+    "nftAddress": "Dirección NFT"
+  }
+} 

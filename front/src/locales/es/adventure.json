@@ -1,0 +1,55 @@
+{
+  "common": {
+    "start": "Iniciar Aventura",
+    "continue": "Continuar Aventura",
+    "exploreZone": "Explorar Zona",
+    "battle": "Batalla",
+    "retreat": "Retirarse",
+    "reward": "Recompensa"
+  },
+  "dialogue": {
+    "choices": "Tus opciones",
+    "speak": "Hablar",
+    "observe": "Observar",
+    "attack": "Atacar",
+    "negotiate": "Negociar",
+    "investigate": "Investigar"
+  },
+  "steps": {
+    "title": "Tu Viaje Interestelar",
+    "step1": {
+      "title": "Paso 1",
+      "description": "Crea tu alter ego galáctico con un test de personalidad absurdo"
+    },
+    "step2": {
+      "title": "Paso 2",
+      "description": "Vive una aventura narrativa generada por inteligencia artificial"
+    },
+    "step3": {
+      "title": "Paso 3",
+      "description": "Mintea tu personaje como NFT y llévalo al multiverso"
+    }
+  },
+  "features": {
+    "cosmicAdventure": {
+      "title": "Aventura Cósmica",
+      "description": "Viaja por historias aleatorias y absurdas llenas de humor, aliens ridículos y situaciones imposibles"
+    },
+    "uniqueCharacters": {
+      "title": "Personajes Únicos",
+      "description": "Recibe un alter ego con estadísticas absurdas e imagen generada por IA que se adapta a tu personalidad"
+    },
+    "multiverse": {
+      "title": "Llévalo al Multiverso",
+      "description": "Conserva tu personaje y todas sus aventuras como un NFT para la posteridad cósmica"
+    }
+  },
+  "progress": {
+    "title": "Huelga Cósmica en Progreso",
+    "description": "Los Desarrolladores Cósmicos han declarado una huelga. Sus tentáculos se niegan a tocar el teclado hasta que haya <span class='text-cosmic-cyan'>{{goal}} personajes</span> en nuestra base de datos galáctica.",
+    "strikeQuote": "\"Necesitamos la energía creativa de {{goal}} viajeros para activar nuestros cerebros cuánticos\", declaró su representante, un pulpo de 42 tentáculos que programa en 17 lenguajes simultáneamente.",
+    "nextUpdate": "Próxima actualización: <span class=\"font-bold\">\"Comienza la Aventura\"</span> - ¡Desbloqueable cuando alcancemos los {{goal}} personajes!",
+    "characters": "personajes",
+    "goal": "Meta"
+  }
+} 
